@@ -3,6 +3,7 @@
 ## 项目简介
 
 本项目为仿微信的分布式即时通讯系统，采用 Spring Cloud 微服务架构，集成 Netty 实现高性能 WebSocket 聊天，支持用户注册、登录、好友管理、朋友圈、文件上传等功能。适合学习和实践分布式微服务、IM 通讯、Spring Cloud、Netty 等技术。
+前端地址：https://github.com/3323223659/WeChat-uniapp
 
 ---
 
