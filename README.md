@@ -83,7 +83,7 @@ wechat-dev/
 
 ### 1. 数据库准备
 
-- 创建数据库 `wechat-dev`，导入表结构（需根据 `wechat-pojo` 实体和 `main-service-66/resources/mappers` 下的 XML 文件建表）。
+- 创建数据库 `wechat-dev`，导入表结构（ 根目录下有sql脚本 ）。
 
 ### 2. 配置中心与中间件
 
