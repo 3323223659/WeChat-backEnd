@@ -1,0 +1,18 @@
+# 使用 openjdk:17 作为基础镜像
+FROM openjdk:17
+
+# 声明容器运行时监听的端口号为1000
+EXPOSE 1000
+
+# 设置镜像的维护者信息
+MAINTAINER yang
+
+# 创建一个名为/mydata的挂载点，用于数据持久化
+VOLUME /mydata
+
+# 将宿主机的gateway-1000.jar文件复制到容器内，并重命名为gateway.jar
+COPY /gateway-1000.jar /gateway.jar
+
+# 设置容器启动时执行的命令
+# 使用java命令运行gateway.jar，并设置JVM初始内存为128MB，最大内存为256MB
+ENTRYPOINT ["java","-jar","-Xms128m","-Xmx256m","/gateway.jar"]

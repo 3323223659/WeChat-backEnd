@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "exclude",
+      "type": "org.itzixi.filter.ExcludeUrlProperties",
+      "sourceType": "org.itzixi.filter.ExcludeUrlProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "exclude.file-start",
+      "type": "java.lang.String",
+      "sourceType": "org.itzixi.filter.ExcludeUrlProperties"
+    },
+    {
+      "name": "exclude.urls",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.itzixi.filter.ExcludeUrlProperties"
+    }
+  ],
+  "hints": []
+}

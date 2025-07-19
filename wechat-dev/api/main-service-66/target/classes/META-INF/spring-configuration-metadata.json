@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "zookeeper.curator",
+      "type": "org.itzixi.zk.CuratorConfig",
+      "sourceType": "org.itzixi.zk.CuratorConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "zookeeper.curator.connection-timeout-ms",
+      "type": "java.lang.Integer",
+      "sourceType": "org.itzixi.zk.CuratorConfig"
+    },
+    {
+      "name": "zookeeper.curator.headers-for-wx-pay",
+      "type": "org.springframework.http.HttpHeaders",
+      "sourceType": "org.itzixi.zk.CuratorConfig"
+    },
+    {
+      "name": "zookeeper.curator.host",
+      "type": "java.lang.String",
+      "sourceType": "org.itzixi.zk.CuratorConfig"
+    },
+    {
+      "name": "zookeeper.curator.max-retries",
+      "type": "java.lang.Integer",
+      "sourceType": "org.itzixi.zk.CuratorConfig"
+    },
+    {
+      "name": "zookeeper.curator.namespace",
+      "type": "java.lang.String",
+      "sourceType": "org.itzixi.zk.CuratorConfig"
+    },
+    {
+      "name": "zookeeper.curator.rabbit-admin",
+      "type": "org.springframework.amqp.rabbit.core.RabbitAdmin",
+      "sourceType": "org.itzixi.zk.CuratorConfig"
+    },
+    {
+      "name": "zookeeper.curator.redis",
+      "type": "org.itzixi.utils.RedisOperator",
+      "sourceType": "org.itzixi.zk.CuratorConfig"
+    },
+    {
+      "name": "zookeeper.curator.redis-template",
+      "type": "org.springframework.data.redis.core.RedisTemplate",
+      "sourceType": "org.itzixi.zk.CuratorConfig"
+    },
+    {
+      "name": "zookeeper.curator.session-timeout-ms",
+      "type": "java.lang.Integer",
+      "sourceType": "org.itzixi.zk.CuratorConfig"
+    },
+    {
+      "name": "zookeeper.curator.sleep-ms-between-retry",
+      "type": "java.lang.Integer",
+      "sourceType": "org.itzixi.zk.CuratorConfig"
+    }
+  ],
+  "hints": []
+}
